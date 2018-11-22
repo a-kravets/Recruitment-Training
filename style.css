@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,cyrillic-ext');
+
+
+
+body {
+	color: #555;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+	background: linear-gradient(-225deg, rgba(100,0,228,0.8) 30%, rgba(100,0,228,0.5) 80%), url("images/recruitment.jpeg");
+	background-size: cover;
+	/*max-width: 100%; we can also use this one instead of cover */
+	padding: 10vw;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	position: relative;
+}
+
+.container {
+	margin: 0 auto;
+    max-width: 60em;
+    display: flex-block;
+    padding: 20px 30px 20px 30px;
+    line-height: 1.5em;
+}
+
+header {
+	font-size: 5em;
+	
+	font-family: 'Lobster', cursive;
+
+}
+
+#subheader {
+	font-size: 1.5em;
+	margin: 1em 8em 1em 8em;
+}
+
+em {
+	box-shadow: inset 0px -10px #D23333;
+}
+
+li {
+	margin-top: 5px;
+}
+
+#subheader:hover > em {
+	box-shadow: inset 0 2em 3em -1em #D23333;
+}
+
+.footer {
+	background-color: black;
+	background-size: cover;
+	padding: 1.2em;
+	color: white;
+	font-size: 1.2em;
+	text-shadow: 1px 1px 2px black;
+	margin-top: 2.5em;
+}
+
+#banner-btn {
+	text-decoration: none;
+	color: white;
+	padding: 0.5em 1em 0.5em 1em;
+	background-color: red;
+	border-radius: 15px;
+	font-size: 1.5em;
+	text-shadow: none;
+	display: inline-flex;
+	margin-top: 25px;
+	text-align: center;
+}
+
+#banner-btn:hover {
+	background-color: #CE2D4F;
+}
+
+.card {
+	margin-top: 2.5em;
+}
+
+#banner-btn-card {
+	margin-top: 3em;
+	justify-content: center;
+	display: flex;
+}
+
+strong {
+	box-shadow: inset 0px -3px #e09191;
+}
+
+.card-i {
+	display: inline-grid;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.img-card {
+	max-width: 80vw;
+	max-height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+.img-card:hover {
+	opacity: 0.5;
+}
+
+
+
+.container1 {
+	display: flex;
+	margin: 5em 10em 5em 10em;
+	justify-content: space-around;
+}
+
+#probl1, #probl2, #probl3 {
+	width: 33%;
+	text-align: center;
+
+}
+
+#img-probl {
+	max-width: 150px;
+	opacity: 0.8;
+}
+
+#img-probl:hover {
+	max-width: 160px;
+	opacity: 1;
+}
+
+#banner-inside {
+	padding: 5vw;
+}
+
+#probl21, #probl22, #probl23 {
+	text-align: left;
+	width: 100%;
+}
+
+.container2 {
+	display: flex;
+	margin: 5em 20em 5em 20em;
+	flex-wrap: wrap;
+}
+
+li {
+	font-size: 1.7em;
+	margin-bottom: 0.7em;: ;
+}
+
+#img-badge {
+	width: 150px;
+	height: 150px;
+	opacity: 0.8;
+	border-radius: 50%;
+}
+
+#img-badge:hover {
+	width: 160px;
+	height: 160px;
+	opacity: 1;
+}
+
+#img-reviews {
+	max-width: 150px;
+	opacity: 0.8;
+	border-radius: 50px;
+}
+
+#img-reviews:hover {
+	max-width: 160px;
+	opacity: 1;
+}
+
+.container3 {
+	display: flex;
+	margin: 5em 20em 5em 20em;
+	flex-wrap: wrap;
+}
+
+#probl31, #probl32 {
+	text-align: left;
+	width: 100%;
+}
+
+#probl31 {
+	text-align: center;
+	width: 100%;
+}
+
+#probl32 {
+	text-align: left;
+	width: 100%;
+	margin: 0em 3em 0em 3em;
+}
+
+#banner-btn-inner {
+	text-decoration: none;
+	color: white;
+	padding: 0.5em 1em 0.5em 1em;
+	background-color: red;
+	border-radius: 15px;
+	font-size: 1.5em;
+	text-shadow: none;
+	display: inline-flex;
+	margin: 0em 0em 3em 0em;
+	text-align: center;
+}
+
+#banner-btn-inner:hover {
+	background-color: #CE2D4F;
+}
+
+@media screen and (max-width: 710px) {
+	.card-i {
+	display: grid;
+	justify-content: center;
+		}	
+	header {
+	font-size: 3em;
+		}
+	#banner-btn {
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	font-size: 1.3em;
+		}
+	#subheader {
+	font-size: 1em;
+	margin: 1em 1em 1em 1em;
+		}
+	.container1, .container2, .container3 {
+		flex-wrap: wrap;
+	}
+	#probl1, #probl2, #probl3 {
+	width: 100%;
+	text-align: center;
+	}
+	#img-probl {
+	max-width: 100px;
+	}
+	#img-badge {
+	max-width: 100px;
+	}
+	#img-reviews {
+	max-width: 100px;
+	}
+	#img-badge:hover {
+	max-width: 110px;
+	opacity: 1;
+	}
+	#img-probl:hover {
+	max-width: 110px;
+	}
+	#img-reviews:hover {
+	max-width: 110px;
+	}
+}
